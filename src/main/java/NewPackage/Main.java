@@ -34,10 +34,6 @@ public class Main {
         } else {
             System.out.println("Год високосный");
         }
-
-
-
-
     }
 
 
