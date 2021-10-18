@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         //leapYear();
+        floatNumbers();
         consoleInput();
     }
+
 
     /*private static void leapYear() {
         int a = 2080;
@@ -20,6 +22,21 @@ public class Main {
             System.out.println("Год високосный");
         }
     }*/
+    private static void floatNumbers() {
+
+            float a = 13.5f;
+            int b = 15;
+            float c = a + b;
+            System.out.println(c);
+
+    }
+
+
+
+
+
+
+
 
     private static void consoleInput() {
         Scanner in = new Scanner(System.in);
